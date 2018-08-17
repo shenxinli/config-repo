@@ -17,8 +17,8 @@ eureka:   #<1>
     statusPageUrlPath: ${eureka.instance.homePageUrlPath}/actuator/info      #状态地址
     healthCheckUrlPath: ${eureka.instance.homePageUrlPath}/actuator/health   #健康检查地址
   client:
-    registerWithEureka: false
-    fetchRegistry: false
+    registerWithEureka: true
+    fetchRegistry: true
     serviceUrl:
         defaultZone: http://${security.user.name}:${security.user.password}@${spring.cloud.eureka.server.host.name}:${spring.cloud.eureka.server.host.port}/eureka/
     region: eureka-zone-1
