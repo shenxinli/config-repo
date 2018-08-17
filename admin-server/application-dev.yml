@@ -3,7 +3,7 @@ server:
 ---
 info:
   scm-url: "@scm.url@"
-  build-url: "https://github.com/shenxinli/spring-cloud-stage"
+  build-url: "https://github.com/shenxinli/spring-cloud-stage1"
 
 logging:
   file: "target/admin-server.log"
