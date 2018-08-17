@@ -3,7 +3,7 @@ server:
 ---
 info:
   scm-url: "@scm.url@"
-  build-url: "https://github.com/shenxinli/spring-cloud-stage"
+  build-url: "http://travis-ci.org/@env.TRAVIS_REPO_SLUG@/builds/@env.TRAVIS_BUILD_ID@"
 
 logging:
   file: "target/admin-server.log"
@@ -35,8 +35,8 @@ spring:
   cloud:
     config:
       name: bootstrap,application
-      profile: dev
-      label: ${spring.application.name}
+      profile: ${spring.application.name}
+      label: master
       discovery:
         enable: true
         serviceId: config-server 
@@ -91,7 +91,7 @@ spring:
     password: Chinaway2014
     username: service@chinawaytek.com
   # address:
-    
+ 
 ---
 spring:
   profiles: dev
