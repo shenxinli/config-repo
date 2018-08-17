@@ -2,8 +2,8 @@ server:
   port: 8888
 ---
 info:
-  scm-url: "@scm.url@"
-  build-url: "http://travis-ci.org/@env.TRAVIS_REPO_SLUG@/builds/@env.TRAVIS_BUILD_ID@"
+  scm-url: "https://github.com/shenxinli/spring-cloud-stage"
+  build-url: "http://www.chinawaytek.com"
 
 logging:
   file: "target/admin-server.log"
