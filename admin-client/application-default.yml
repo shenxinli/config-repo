@@ -1,0 +1,5 @@
+info:
+  scm-url: "@scm.url@"
+  build-url: "https://github.com/shenxinli/spring-cloud-stage"
+demo:
+  value: hello
