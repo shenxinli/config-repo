@@ -1,3 +1,7 @@
+security:
+  user:
+    name: "root"
+    password: "chinaway2014"
 info:
   scm-url: "@scm.url@"
   build-url: "https://github.com/shenxinli/spring-cloud-stage?test=1"

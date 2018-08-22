@@ -1,4 +1,8 @@
 EUREKA_SERVICE_URL: http://172.18.170.87:8761
+security:
+  user:
+    name: "root"
+    password: "chinaway2014"
 info:
   scm-url: "@scm.url@"
   build-url: "https://github.com/shenxinli/spring-cloud-stage"
