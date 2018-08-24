@@ -3,3 +3,12 @@ security:
   user:
     name: "root"
     password: "supperstart"
+info:
+  scm-url: "https://github.com/shenxinli/spring-cloud-stage"
+  build-url: "http://120.79.93.249:8089/job/${spring.application.name}/"
+spring:
+  rabbitmq:
+    host: 120.79.93.249
+    port: 5673
+    username: shenxinli
+    password: chinaway2014
