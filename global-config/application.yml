@@ -4,7 +4,7 @@ security:
     name: "root"
     password: "superstart"
 info:
-  scm-url: "https://github.com/shenxinli/spring-cloud-stage"
+  scm-url: "https://github.com/shenxinli/spring-cloud-stage?test=true"
   build-url: "http://120.79.93.249:8089/job/${spring.application.name}/"
 spring:
   rabbitmq:
